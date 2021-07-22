@@ -1,8 +1,8 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
-	{"", "free -h | grep 'Mem' | awk '{print $3}'",	2,		0},
-	{"", "date '+%d %a %H:%M'",					3,		0},
+	{"", "free -h | grep 'Mem' | awk '{print $3}'",	1,		0},
+	{"", "date '+%d %a %H:%M'",					2,		0},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
